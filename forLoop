@@ -1,0 +1,26 @@
+Coding challenge 
+
+
+
+Task no 1: Using a for-loop and a range function, print "I am a programmer" 5 times.
+
+
+Task no 2: Create a function which displays out the square values of numbers from 1 to 9.
+
+
+Solution to coding challenge 
+
+
+for x in range(5):
+ 
+    print('I am a programmer')   
+    
+    
+    
+    
+solution for task 2:
+
+ def display_square():
+    for x in range(1,10):
+        print(x*x)
+display_square()
