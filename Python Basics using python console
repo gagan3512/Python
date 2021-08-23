@@ -1,0 +1,178 @@
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello World")
+Hello World
+>>> 200+300
+500
+>>> 200-300
+-100
+>>> 5*7+6
+41
+>>> 5*6(5+89)
+<stdin>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>> 5*6*(5+89)
+2820
+>>> 500/100
+5.0
+>>> 500//100
+5
+>>> 456/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> 4758/(2-2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> 6.0*3
+18.0
+>>> 6.0**3
+216.0
+>>> 6*3
+18
+>>> 22.0+15
+37.0
+>>> 22+15
+37
+>>> 2**2
+4
+>>> 2**3
+8
+>>> 2**8
+256
+>>> 49**(1/2)
+7.0
+>>> 98/7
+14.0
+>>> 98//7
+14
+>>> 7/3
+2.3333333333333335
+>>> 7%3
+1
+>>> 7%(5//2)
+1
+>>> print("Hello World")
+Hello World
+>>> 'Hello world'
+'Hello world'
+>>> "Hello World"
+'Hello World'
+>>> 'He's is a good guy'
+  File "<stdin>", line 1
+    'He's is a good guy'
+        ^
+SyntaxError: invalid syntax
+>>> 'He\'s is a good guy'
+"He's is a good guy"
+>>> "He's a good guy"
+"He's a good guy"
+>>> 'he is a "good " guy '
+'he is a "good " guy '
+>>> "he is a "good""
+  File "<stdin>", line 1
+    "he is a "good""
+              ^
+SyntaxError: invalid syntax
+>>> "he is a \"good"\ "
+  File "<stdin>", line 1
+    "he is a \"good"\ "
+                      ^
+SyntaxError: unexpected character after line continuation character
+>>> "he is a \"good\" "
+'he is a "good" '
+>>> input('Please enter a value')
+Please enter a value103
+'103'
+>>> input('Please enter a value')
+Please enter a valueGagan
+'Gagan'
+>>> print('Hello mike welcome to the club')
+Hello mike welcome to the club
+>>> print('Hello mike \n  welcome to the club')
+Hello mike
+  welcome to the club
+>>> print('Hello mike \nwelcome to the club')
+Hello mike
+welcome to the club
+>>> print('Hello mike \nwelcome to the club\n we are glad to have u here   ')
+Hello mike
+welcome to the club
+ we are glad to have u here
+>>> print('Hello mike \nwelcome to the club \nwe are glad to have u here   ')
+Hello mike
+welcome to the club
+we are glad to have u here
+>>> "hello"
+'hello'
+>>> '5'
+'5'
+>>> "hello" + "world"
+'helloworld'
+>>> "5"+"5"
+'55'
+>>> 'hello'+'i'+"am"
+'helloiam'
+>>> 'hello'+'i'+"am"+"heppy"
+'helloiamheppy'
+>>> "rob"**10
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+>>> "rob"*10
+'robrobrobrobrobrobrobrobrobrob'
+>>> a=10
+>>> print(a)
+10
+>>> b=20
+>>> print(b)
+20
+>>> print(c)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'c' is not defined
+>>> c=a+b
+>>> print(c)
+30
+>>> x="Gagan"
+>>> print(x)
+Gagan
+>>> del x
+>>> print(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>> age=39
+>>> age=age+1
+>>> print(age
+... print(age)
+  File "<stdin>", line 2
+    print(age)
+    ^
+SyntaxError: invalid syntax
+>>> print(age)
+40
+>>> age += 1
+>>> print(age)
+41
+>>> age += 4
+>>> print(age)
+45
+>>> age -= 4
+>>> print(age)
+41
+>>> age*=2
+>>> print(age)
+82
+>>> b="hello"
+>>> b+="world"
+>>> print(b)
+helloworld
+>>> print(b)
+helloworld
+>>>
+KeyboardInterrupt
+>>>
