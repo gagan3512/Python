@@ -173,6 +173,4 @@ SyntaxError: invalid syntax
 helloworld
 >>> print(b)
 helloworld
->>>
-KeyboardInterrupt
->>>
+
