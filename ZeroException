@@ -1,0 +1,19 @@
+Coding challenge 
+
+
+
+Write a function which would divide two numbers, design the function in a manner that it handles the divide by zero exception.
+
+Solution:-
+
+def divide(a, b):
+    try:
+        return a/b
+    except ZeroDivisionError:
+        print("There is a divide by zero error")
+        return 0
+
+x = float(input("Enter a number"))
+y = float(input("Enter value by which u want to divide"))
+result = divide(x, y)
+print(result)
